@@ -13,6 +13,6 @@ func main() {
 	// 1. Home Page 
 	http.HandleFunc("/", homecontroller.Welcome)
 
-	log.Println("Server UP and Running on Port : 5002")
+	log.Println("Server is UP and Running on Port : 5002")
 	http.ListenAndServe(":5002", nil)
 }
